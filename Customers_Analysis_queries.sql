@@ -4,6 +4,13 @@ SELECT * FROM sales.customers;
 -- Basic information about the customers table
 DESC customers;
 
+|Field|	Type|	Null|	Key|	Default|	Extra|
+  |---|---|---|---|---|---|
+|customer_code|	varchar(45)|	NO|	PRI|	NULL|	
+|customer_name|	varchar(45)| YES|		|NULL|	
+|customer_type |	varchar(45)	|YES|		|NULL|	
+
+
 ------------------------------------------------------------------
 -- Fnd total number of records in customers table
 SELECT COUNT(*) FROM customers;
