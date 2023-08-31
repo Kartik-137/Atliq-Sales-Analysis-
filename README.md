@@ -113,7 +113,7 @@
     - given as: (sale_amount-cost_price)/sales_amount
     9. `gross_profit`:
     - Calculated by subtracting the cost price of the product from the sales amount.
---> [SQL queries for Transactions table](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Transactions_Analysis_queries.sql)
+- [SQL queries for Transactions table](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Transactions_Analysis_queries.sql)
 
 
 ### Some brief results as obtained from Data Analysis in MySQL
@@ -160,13 +160,13 @@
     7.**Revenue LastYear** = `CALCULATE([Revenue], SAMEPERIODLASTYEAR('sales date'[date]))`
 
 ### 2. **Sales Insights Dashboard**
-- ![Sales insights](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Sales%20Insights.jpg)
+![Sales insights](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Sales%20Insights.jpg)
 
 ### 3. **Profit Analysis Dashboard**
-- ![Profit Analysis](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Profit%20Analysis.jpg)
+![Profit Analysis](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Profit%20Analysis.jpg)
 
 ### 4. **Performance Insights Dashboard**
-- ![Performance Insights](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Performance%20insights.jpg)
+![Performance Insights](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Performance%20insights.jpg)
 
 ---
 ## Insights from the final report
