@@ -58,7 +58,7 @@
     - Name of the client with whom business is done
     3. `Custome_type`:
     - The category in which the client lies such as **E-Commerce/Brick & Mortar**
---> [SQL queries for Customers table](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Customers_Analysis_queries.sql)
+- [SQL queries for Customers table](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Customers_Analysis_queries.sql)
 
  ### 2. Analysis of the Date table:
 - The **date table** contains the following attributes:
@@ -72,7 +72,7 @@
     - Month from the date column
     5. `date_yy_mmm`
     - Date in YY-MMM format
---> [SQL queries for Date table](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Date_Analysis_queries.sql)
+- [SQL queries for Date table](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Date_Analysis_queries.sql)
 
 ### Analysis of the Products table:
 - The **products table** contains the following attributes:
@@ -80,7 +80,7 @@
     - The unique code of the products supplies to the clients.
     2. `Product_type`:
     - The category in which the product falls which are own brand and distribution.
---> [SQL quries for Products table](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Products_Analysis_queries.sql)
+- [SQL quries for Products table](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Products_Analysis_queries.sql)
     
 ### Analysis of the Markets table:
 - The **markets table** contains the following attributes:
@@ -90,7 +90,7 @@
     - The name corresponding to the unique market_code
     3. `Zone`:
     - The zone under which the market comes such as central, north or south
---> [SQL queries for Markets table](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Markets_Analysis_queries.sql)
+- [SQL queries for Markets table](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Markets_Analysis_queries.sql)
 
 ### Analysis of the Transactions table:
 - The **transactions table** contains the following attributes:
@@ -113,7 +113,7 @@
     - given as: (sale_amount-cost_price)/sales_amount
     9. `gross_profit`:
     - Calculated by subtracting the cost price of the product from the sales amount.
---> [SQL queries for Transactions table](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Transactions_Analysis_queries.sql)
+- [SQL queries for Transactions table](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Transactions_Analysis_queries.sql)
 
 
 ### Some brief results as obtained from Data Analysis in MySQL
@@ -131,7 +131,6 @@
 - Filtered the Indian cities only by excluding the business from New York and Paris. Because as observed during data analysis no records were found for business done outside India.
 - Created a new column for sales amount which has values INR only
 3. Applied the final changes and loaded the transformed table to Power BI for data vizualization.
-
 4. The relationship with the 4 child tables which are customers, markets, products, date was established with the fact table transactions which holds the references (foreign key) from the primary keys of child tables. The relationship being one to many.
 - **Relationship between the tables**
 ![Relationship between tables](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Data%20Modelling%20image.png?raw=true)
@@ -158,13 +157,13 @@
     7.**Revenue LastYear** = `CALCULATE([Revenue], SAMEPERIODLASTYEAR('sales date'[date]))`
 
 ### 2. **Sales Insights Dashboard**
-- ![Sales insights](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Sales%20Insights.jpg)
+![Sales insights](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Sales%20Insights.jpg)
 
 ### 3. **Profit Analysis Dashboard**
-- ![Profit Analysis](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Profit%20Analysis.jpg)
+![Profit Analysis](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Profit%20Analysis.jpg)
 
 ### 4. **Performance Insights Dashboard**
-- ![Performance Insights](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Performance%20insights.jpg)
+![Performance Insights](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Performance%20insights.jpg)
 
 ---
 ## Insights from the final report
