@@ -132,10 +132,10 @@
 - Created a new column for sales amount which has values INR only
 3. Applied the final changes and loaded the transformed table to Power BI for data vizualization.
 4. The relationship with the 4 child tables which are customers, markets, products, date was established with the fact table transactions which holds the references (foreign key) from the primary keys of child tables. The relationship being one to many.
-- **Relationship between the tables**
-![Relationship between tables](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Data%20Modelling%20image.png?raw=true)
+    - **Relationship between the tables**
+    ![Relationship between tables](https://github.com/Kartik-137/Atliq-Sales-Analysis-/blob/main/Data%20Modelling%20image.png?raw=true)
 
-## --------------------------------------
+---
 ## Creating the final report
 
 ### 1. **Creating Base measures**
